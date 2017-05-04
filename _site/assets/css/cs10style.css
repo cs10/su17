@@ -78,85 +78,41 @@ tr.cal:nth-child(odd), .light {
 /*****************************************************************************/
 /* All Cells */
 
-.table>tbody>tr>td, /* This overrides bootstrap stupidity */
-.table>tbody>tr>th {
+table#summer-calendar {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+table#summer-calendar, #summer-calendar th, #summer-calendar td {
+  border: 1px solid #000;
+}
+#summer-calendar th {
+  background-color: #fff;
+  padding: 5px;
+}
+#summer-calendar td {
+  padding: 5px;
+  vertical-align: top;
+  background-color: #fff;
   vertical-align: middle;
+  text-align: left;
 }
-.cal > td,
-.cal > th {
-    vertical-align: middle;
-    border: 2px solid white;
-    padding: 2px;
-    margin: 2px;
+#summer-calendar th {
+  text-align: center;
 }
-
-/* This is the date column */
-/*.cal > td:nth-child(2) {
-    font-family: monospace;
-}*/
-
-/* READING ASSIGNMENTS CLASSES */
-/* Preface all readings links with this. */
-.reading:before {
-    content: "\03BB   "; /* Lambda Char Unicode */
-    color: black;
-    display: inline;
-    text-decoration: none;
+#summer-calendar tr:nth-child(8n + 2) td,
+#summer-calendar tr:nth-child(8n + 3) td,
+#summer-calendar tr:nth-child(8n + 4) td,
+#summer-calendar tr:nth-child(8n + 5) td {
+  background-color: #e0e0e0;
 }
-
-/* The standard color for readings */
-/* Reading Assignments Key Box */
-.key {
-    margin: 1% 0 2% 0;
-    border: 3px solid black;
-    border-radius: 5px;
-    font-size: 1em;
-    padding: .2em;
+/* Center the week numbers */
+#summer-calendar tr:nth-child(4n + 2):not(:first-child) td:first-child {
+  text-align: center;
 }
-.required, .required:visited {
-    color: #00E;
-}
-/* Readings that are very technical */
-.hard, .hard:visited {
-    color: #008000;
-}
-/* Recommended Readings */
-.optional, .optional:visited {
-    color: #800;
-    font-style: italic;
-}
-
-/* SPECIAL DATES BACKGROUND COLOLRS */
-.due {
-    background-color: #FFC;
-}
-.paper {
-    background-color: #CFC;
-}
-.project {
-    background-color: #FCC;
-}
-.exam {
-    background-color: #CCF;
-    font-weight: bold;
-}
-.noClass {
-    background-color: #333;
-    color: #FFF;
-}
-
-div.inner {
-    vertical-align: middle;
-    margin: -2px; /* Opposite of the inner cell padding */
-    padding: 2px;
-}
-
-tr.cal.light {
-  background: rgba(196, 196, 255, 0.4);
-}
-tr.cal.dark {
-  background: rgba(177, 239, 239, 0.3);
-}
+#summer-calendar .due-date { background-color: #fff !important; }
+#summer-calendar .exam { background-color: #b6d7a8 !important; }
+#summer-calendar th:nth-child(2) { min-width: 80px; }
 
 /******************************************************************************/
 /** STAFF PHOTOS **/
