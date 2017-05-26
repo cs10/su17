@@ -1,29 +1,34 @@
-# [CS10 Spring 2017][site]
+# [CS10 Summer 2017 🌴⛱🏊🏾][site]
 
-[site]: http://cs10.org/fa16
+[site]: http://cs10.org/su17
 
-## Background
-The Spring 2017 site is built using [Jekyll](jekyllrb.com) and is hosted on Github, with a backup on the CS10 instructional account.
-
-Currently, there isn't much fancy work being done with Jekyll -- just a few include statements and basic page layouts.
-
-## Jekyll
+## Getting Started
 This site is built with Jekyll. To build the site, you need Jekyll and Ruby installed. Github has some fairly straight forward instructions, here:
 https://help.github.com/articles/using-jekyll-with-pages/
 
-To preview the site you should run:
-`bundle exec jekyll serve`
+To get the site, run
+
+`git clone https://github.com/cs10/su17.git`
 
 ## Updating the Website
 
-The most common file to edit will be `assets/schedule.js` which defines the main class calendar. There are 4 main functions (`reading`, `lab`, `lect`, `hw`) for each type of item on the calendar. Their inputs are listed at the top of the file.
+Stay up to date before you make changes with by running
+
+`git pull origin gh-pages`
+
+`git submodule update`
+
+The 'submodule update' part refers to the folder `resources`. That folder is actually another git repository, shared by all cs10 sites.
+
+To preview the site you should run:
+
+`bundle exec jekyll serve`
+
+The most common file to edit will be `includes/summer_calendar.html` which holds an HTML table with the calendar in it. Ctrl-f to find the part of the table you need to edit.
 
 Some things:
-* lectures content should go in `lecture/## - Title/` and should not include the source files
-* discussion resources should go in `discussion/##/`
-
-#### TODO: A note about directory listings
-
+* lectures should link to the lecture folder in Drive.
+* discussion resources should go in `discussion/`
 
 ## Web Dependencies
 
