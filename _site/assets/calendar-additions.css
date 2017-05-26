@@ -24,7 +24,7 @@
 
 /* Increase the default cell height */
 .fc-slats td {
-  height: 3.5em;
+  height: 2.5em;
 }
 
 /* Make today be highlighted in gold. */
@@ -51,7 +51,7 @@
 }
 /* Make the calendar events take up the whole column width */
 .fc-ltr .fc-time-grid .fc-event-container {
-  margin: 0 1.5% 0 1.5%;
+  margin: 0;
 }
 /* Set text settings for info in each event*/
 .fc-event, .fc-event:hover, .ui-widget .fc-event {

@@ -112,8 +112,9 @@ table#summer-calendar, #summer-calendar th, #summer-calendar td {
 #summer-calendar tr:nth-child(4n + 2):not(:first-child) td:first-child {
   text-align: center;
 }
-#summer-calendar .due-date { background-color: #fff !important; }
-#summer-calendar .exam { background-color: #b6d7a8 !important; }
+/*#summer-calendar .cal-due-date { background-color: #fff !important; }*/
+#summer-calendar .cal-exam { background-color: #b6d7a8 !important; }
+#summer-calendar .cal-no-class { background-color: #222 !important; color: #fff !important;n}
 #summer-calendar th:nth-child(2) { min-width: 80px; }
 
 /******************************************************************************/

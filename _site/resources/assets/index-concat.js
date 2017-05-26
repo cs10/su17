@@ -17,8 +17,8 @@
 var cs10 = cs10 || {};
 
 // Sunday at the start of the semester
-cs10.startDate = '2017-01-15';
-cs10.endDate   = '2017-05-13';
+cs10.startDate = '2017-06-18';
+cs10.endDate   = '2017-08-12';
 
 cs10.bCoursesID = '1458271';
 
@@ -1233,7 +1233,7 @@ function buildPerson(data, width) {
     var cls = 'col-md-' + (width === 5 ? '20' : Math.floor(12/width));
     elm = '<div class="'+ cls + '">';
     if (!!data.img) {
-        elm += '<a href="/sp17/resources/images/' + data.img + '">';
+        elm += '<a href="/su17/resources/images/' + data.img + '">';
     }
 
     elm += '<img class="staff" align="center" ';

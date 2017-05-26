@@ -82,8 +82,8 @@ function displaySpeech(img_name, img_src) {
 var cs10 = cs10 || {};
 
 // Sunday at the start of the semester
-cs10.startDate = '2017-01-15';
-cs10.endDate   = '2017-05-13';
+cs10.startDate = '2017-06-18';
+cs10.endDate   = '2017-08-12';
 cs10.bCoursesID = '1458271';
 cs10.NUM_WEEKS_TO_RENDER = 17;
 
@@ -550,7 +550,7 @@ cs10.week3 = {
         //reading('The Story of Alan Turing &amp; His Machine',
                 //'https://youtu.be/CQhrMmbiaM0'),
         reading('BtB Chapter 1',
-                '/sp17/resources/readings/btb/chapter1.pdf')
+                '/su17/resources/readings/btb/chapter1.pdf')
     ],
     lect1: lect('Lists and Scoping',
             'https://drive.google.com/drive/u/1/folders/0B4KuCtIkhB7QTTE3TjVfY0xIMG8'
@@ -828,68 +828,27 @@ $(document).ready(function() {
 
 // Instructors
 
-var DanGarcia = {
-    name: 'Teaching Professor Dan Garcia',
-    img: 'DanGarciaUCBFaculty2004.jpg',
-    imgSrc: 'DanGarcia.jpg',
-    imgCrazy: true,
-    web: 'http://www.cs.berkeley.edu/~ddgarcia/',
-    bio: 'DanBio',
-    email: 'dan@cs10.org',
-    office: '777 Soda, (510) 517-4041'
+var stevenT = {
+    name: 'Lecturer Steven Traversi',
+    img: 'Sp17/StevenTraversi.jpg',
+    imgSrc: '../Sp17/StevenTraversi.jpg',
+    imgCrazy: '../small/StevenTraversiCrazy.jpg',
+    web: 'http://steven.codes',
+    bio: 'StevenBio',
+    email: 'steven@cs10.org'
+};
+
+var yifatA = {
+  name: 'Lecturer Yifat Amir',
+  img: 'Sp17/YifatAmir.jpg',
+  imgSrc: '../Sp17/YifatAmir.jpg',
+  imgCrazy: '../small/YifatAmirCrazy.jpg',
+  bio: 'YifatBio',
+  web: 'https://www.linkedin.com/in/yifat-amir-45633584',
+  email: 'yifat@cs10.org'
 };
 
 // TAs
-
- var addisonH = {
-    name: 'TA Addison Howe',
-    img: 'Fa16/AddisonHowe.JPG',
-    email: 'addison@cs10.org',
-    imgSrc: '../Sp17/AddisonHowe.jpg',
-    };
-
-var carlosF = {
-    name: 'TA Carlos Flores',
-    img: 'Fa16/CarlosFlores.jpg',
-    bio: 'CarlosBio',
-    imgSrc: '../Fa16/CarlosFlores.jpg',
-    imgCrazy: '../small/CarlosFloresCrazy.jpg',
-    email: 'carlos@cs10.org',
-    web: 'http://carlos.codes'
-};
-
-var christianL = {
-    name: 'TA Christian Lista-Nicoloso',
-    img: 'Christian Lista-Nicoloso.JPG',
-    bio: 'ChristianBio',
-    imgSrc: '../Fa16/Christian Lista-Nicoloso.JPG',
-    email: 'christian@cs10.org'
-};
-
-var lizzyS = {
-    name: 'TA Lizzy Steger',
-    img: 'Fa16/LizzySteger.JPG',
-    imgSrc: '../Fa16/LizzySteger.JPG',
-    bio: 'LizzyBio',
-    email: 'lizzy@cs10.org'
-};
-
-var erikD = {
-    name: 'TA Erik Dahlquist',
-    img: 'Sp15/ErikDahlquist.jpg',
-    imgSrc: 'ErikDahlquist.jpg',
-    bio: 'ErikBio',
-    email: 'erik@cs10.org'
-};
-
-
-var jobelV = {
-    name: 'TA Jobel Vecino',
-    img: 'Fa13/JobelVecino.jpg',
-    imgSrc: 'JobelVecino.jpg',
-    bio: 'JobelBio',
-    email: 'jobel@cs10.org'
-};
 
 var laraM = {
     name: 'Head TA Lara McConnaughey',
@@ -901,109 +860,21 @@ var laraM = {
     email: 'lara@cs10.org'
 };
 
-var mansiS = {
-    name: 'TA Mansi Shah',
-    img: 'MansiShah.jpg',
-    imgSrc: '../Sp17/MansiShah.jpg',
-    email: 'mansi@cs10.org',
-    bio: 'MansiBio'
+var jobelV = {
+    name: 'TA Jobel Vecino',
+    img: 'Fa13/JobelVecino.jpg',
+    imgSrc: 'JobelVecino.jpg',
+    bio: 'JobelBio',
+    email: 'jobel@cs10.org'
 };
-
-var patriciaX = {
-    name: 'TA Patricia Xiao',
-    img: '../Sp17/PatriciaXiao.jpg',
-    imgSrc: '../Sp17/PatriciaXiao.jpg',
-    email: 'patricia@cs10.org',
-    bio: 'PatriciaBio',
-};
-
-var stevenT = {
-    name: 'Head TA Steven Traversi',
-    img: 'Sp17/StevenTraversi.jpg',
-    imgSrc: '../Sp17/StevenTraversi.jpg',
-    imgCrazy: '../small/StevenTraversiCrazy.jpg',
-    web: 'http://steven.codes',
-    bio: 'StevenBio',
-    email: 'steven@cs10.org'
-};
-
-var yifatA = {
-  name: 'TA Yifat Amir',
-  img: 'Sp17/YifatAmir.jpg',
-  imgSrc: '../Sp17/YifatAmir.jpg',
-  imgCrazy: '../small/YifatAmirCrazy.jpg',
-  bio: 'YifatBio',
-  web: 'https://www.linkedin.com/in/yifat-amir-45633584',
-  email: 'yifat@cs10.org'
-};
-
-// Readers
 
 var angelaW = {
-    name: 'Reader Angela Wong',
+    name: 'TA Angela Wong',
     imgSrc: '../Sp17/las/AngelaWong.jpg',
     img: 'AngelaWong.jpg',
 };
 
-var matthewS = {
-    name: 'Reader Matthew Schwartz',
-    img: 'Fa16/MatthewSchwartz.JPG',
-    imgSrc: '../Fa16/MatthewSchwartz.JPG',
-};
-
-var noahJ = {
-    name: 'Reader Noah Jacobs',
-    imgSrc: '../Sp17/NoahJacobs.jpg',
-    img: 'Fa16/NoahJacobs.jpg',
-};
-
-var hectorA = {
-    name: 'Reader Hector Aguilar',
-    imgSrc: '../Fa16/HectorAguilar.jpg',
-    img: 'Fa16/HectorAguilar.jpg',
-    imgCrazy: '../small/HectorAguilarCrazy.jpg',
-};
-
-
-// Lab Assistants
-
- var amyL = {
-    name: 'LA Amy Lee',
-    imgSrc: '../Sp17/las/AmyLee.jpg',
-    img: '../Sp17/las/AmyLee.jpg',
-
- };
-
-var andresG = {
-    name: 'LA Andres Gonzalez',
-    imgSrc: '../Sp17/las/AndresGonzalez.jpg',
-    img: 'AndresGonzalez.jpg',
-};
-
-var aprillaJ = {
-    name: 'LA Aprillia Judokusumo',
-    imgSrc: '../Sp17/las/AprilliaJudokusumo.jpg',
-    img: 'AprilliaJudokusumo.jpg',
-};
-
-var arvindN = {
-    name: 'LA Arvind Nandakumar',
-    imgSrc: '../Sp17/las/ArvindNandakumar.jpg',
-    img: 'ArvindNandakumar.jpg',
-};
-
-var bardiaB = {
-    name: 'LA Bardia Barahman',
-    imgSrc: '../Sp17/las/BardiaBarahman.jpg',
-    img: 'BardiaBarahman.jpg',
-};
-
- var batoolN = {
-    name: 'LA Batool Naqvi',
-    imgSrc: '../Sp17/las/BatoolNaqvi.jpg',
-    img: 'BatoolNaqvi.jpg',
-
- };
+// Readers
 
 var bhumikaG = {
     name: 'LA Bhumika Goel',
@@ -1011,99 +882,17 @@ var bhumikaG = {
     img: 'BhumikaGoel.jpg',
 };
 
-var calvinP = {
-    name: 'LA Calvin Price',
-    imgSrc: '../Sp17/las/CalvinPrice.jpg',
-    img: 'CalvinPrice.jpg',
-};
-
-var gabrielV = {
-    name: 'LA Gabriel Venditti',
-    imgSrc: '../Sp17/las/GabrielVenditti.jpg',
-    img: 'GabrielVenditti.jpg',
-};
-
-var hannahV = {
-    name: 'LA Hannah Verdonk',
-    imgSrc: '../Sp17/las/HannahVerdonk.jpg',
-    img: 'HannahVerdonk.jpg',
-};
-
- var jingjingJ = {
-    name: 'LA JingJing Jia',
-    imgSrc: '../Sp17/las/JingJingJia.jpg',
-    img: 'JingJingJia.jpg',
-
- };
-
-var jocelynS = {
-    name: 'LA Jocelyn Sun',
-    imgSrc: '../Sp17/las/JocelynSun.jpg',
-    img: 'JocelynSun.jpg',
-};
-
- var leonorA = {
-    name: 'LA Leonor Alcaraz',
-    imgSrc: '../Sp17/las/LeonorGuzman.jpg',
-    img: 'LeonorGuzman.jpg',
-
- };
-
-var lyricY = {
-    name: 'LA Lyric Yu',
-    imgSrc: '../Sp17/las/LyricYu.jpg',
-    img: 'LyricYu.jpg',
-};
-
-var maxY = {
-    name: 'LA Max Yao',
-    imgSrc: '../Sp17/las/MaxYao.jpg',
-    img: 'MaxYao.jpg',
-};
-
-var michelleC = {
-    name: 'LA Michelle Chan',
-    imgSrc: '../Sp17/las/MichelleChan.jpg',
-    img: 'MichelleChan.jpg',
-};
-
-var rafaelF = {
-    name: 'LA Rafael Félix',
-    imgSrc: '../Sp17/las/RafaelFelix.jpg',
-    img: 'RafaelFelix.jpg',
-};
-
-var samuelS = {
-    name: 'Head LA Samuel Starks',
-    img: 'Fa16/SamStarks.jpg',
-    imgSrc: '../Fa16/SamStarks.jpg',
-};
-
- var vardaS = {
-    name: 'LA Varda Shrivastava',
-    imgSrc: '../Sp17/las/VardaShrivastava.jpg',
-    img: 'VardaShrivastava.jpg',
-
- };
-
- var veraG = {
-    name: 'LA Vera Gold',
-    imgSrc: '../Sp17/las/VeraGold.jpg',
-    img: 'VeraGold.jpg',
-
- };
 /*****************************************************************************/
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
-var inst = [ DanGarcia ];
-var tas = [laraM, stevenT, addisonH, carlosF, erikD, jobelV, lizzyS, mansiS, patriciaX, yifatA];
-// var readers = [ addisonH, hectorA, matthewS,  noahJ, samuelS ];
-var readers = [angelaW, hectorA, matthewS, noahJ];
-var las = [samuelS, amyL, andresG, aprillaJ, arvindN, bardiaB, batoolN, bhumikaG, calvinP, gabrielV, hannahV, jingjingJ, jocelynS, leonorA, lyricY, maxY, michelleC, rafaelF, vardaS, veraG];
+var inst = [ stevenT, yifatA ];
+var tas = [laraM, jobelV, angelaW];
+var readers = [bhumikaG];
+var las = [];
 
 // If you need to add a new SECTION add it to this object.
-// Follow the same formt.
+// Follow the same format.
 var all = {
     readers: readers,
     tas: tas,
@@ -1135,7 +924,7 @@ function buildPerson(data, width) {
     // when developing load images from a submodule, else load from /resources
     var hostName = window.location.hostname;
     if (hostName === 'localhost' || hostName == '127.0.0.1') {
-        imgPathBase = '/sp17'
+        imgPathBase = '/su17'
     } else {
         imgPathBase = '';
     }
@@ -1146,7 +935,7 @@ function buildPerson(data, width) {
     }
     // Create a div with this person's data, setting a class for width
     // Col-md- is based on standard bootstrap classes, md-20 is my own addition.
-    cls = 'col-md-' + (width === 5 ? '20' : Math.floor(12/width));
+    cls = 'col-xs-' + (width === 5 ? '20' : Math.floor(12/width));
     elm = '<div class="'+ cls + '">';
     if (data.img) {
         elm += '<a href="' + imgPathBase + '/resources/images/' + data.img + '">';
@@ -1171,7 +960,7 @@ function buildPerson(data, width) {
     }
     elm += '</strong> ';
     if (data.bio) {
-        elm += '(<a href="/sp17/bios/' + data.bio + '">bio</a>)';
+        elm += '(<a href="/su17/bios/' + data.bio + '">bio</a>)';
     }
     if (data.email) {
         elm += '<br><a href="mailto:' + data.email +
@@ -1228,7 +1017,7 @@ function normalImage(image, normalPath) {
 
 /* more code to run on page load */
 // Parameters: a section (HTML 'id') and num of images per row.
-buildGroup('inst', 5);
-buildGroup('tas', 5);
-buildGroup('readers', 5);
+buildGroup('inst', 2);
+buildGroup('tas', 2);
+buildGroup('readers', 2);
 buildGroup('las', 5);

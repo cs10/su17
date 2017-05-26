@@ -1,5 +1,4 @@
 ---
-
 layout: default
 ---
 
@@ -7,26 +6,11 @@ layout: default
 
   {% include quicklinks.html %}
 
-  <h1>Updates</h1>
-  <div class="page-section" id="news">
-      <h2>Please check this section for important updates!</h2>
-      <ul class='lambda'>
-        <li><bold>Quest: Monday 2/13 </bold></li>
-        <li><bold>The full semester schedule has been posted, however it is a rough draft and subject to change</bold></li>
-        <!--<li><bold>Midterm Exam Part I: Monday 3/31 </bold></li>-->
-        <!--<li><bold>Midterm Exam Part II: Wednesday 4/2  </bold></li>-->
-        <!--<li><bold>Final Exam: Tuesday 5/9 </bold></li>-->
-      </ul>
-  </div>
-
-  <h1>Overview</h1>
-  <div class="page-section" id="overview">
-    {% include_relative includes/overview.html %}
-  </div>
-
   <h1>Assignment Calendar</h1>
   <div class="page-section">
-    {% include_relative includes/summer_calendar.html %}
+    <div class="table-responsive">
+      {% include_relative includes/summer_calendar.html %}
+    </div>
   </div>
   <div class="clearfix"></div>
 
@@ -35,7 +19,7 @@ layout: default
       <h4>This calendar displays the class schedule for the <em>current</em> week.
         Click on any event to see the building location on a map.</h4>
       <div class="table-responsive">
-          <div id="oh-cal" style="min-width:1000px;"></div>
+          <div id="oh-cal" style="min-width:600px;"></div>
       </div>
   </div>
 
