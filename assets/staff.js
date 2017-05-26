@@ -2,8 +2,8 @@
 
 var stevenT = {
     name: 'Lecturer Steven Traversi',
-    img: 'Sp17/StevenTraversi.jpg',
-    imgSrc: '../Sp17/StevenTraversi.jpg',
+    img: 'Su17/StevenTraversi.jpg',
+    imgSrc: '../Su17/StevenTraversi.jpg',
     imgCrazy: '../small/StevenTraversiCrazy.jpg',
     web: 'http://steven.codes',
     bio: 'StevenBio',
@@ -12,7 +12,7 @@ var stevenT = {
 
 var yifatA = {
   name: 'Lecturer Yifat Amir',
-  img: 'Sp17/YifatAmir.jpg',
+  img: 'Su17/YifatAmir.jpg',
   imgSrc: '../Sp17/YifatAmir.jpg',
   imgCrazy: '../small/YifatAmirCrazy.jpg',
   bio: 'YifatBio',
@@ -24,8 +24,8 @@ var yifatA = {
 
 var laraM = {
     name: 'Head TA Lara McConnaughey',
-    img: 'LaraMcConnaughey.jpg',
-    imgSrc: '../Sp17/LaraMcConnaughey.jpg',
+    img: 'Su17/LaraMcConnaughey.jpg',
+    imgSrc: '../Su17/LaraMcConnaughey.jpg',
     imgCrazy: '../small/LaraMcConnaugheyCrazy.jpg',
     web: 'http://laralinmcc.github.io/',
     bio: 'LaraBio',
@@ -34,7 +34,7 @@ var laraM = {
 
 var jobelV = {
     name: 'TA Jobel Vecino',
-    img: 'Fa13/JobelVecino.jpg',
+    img: 'Su17/JobelVecino.jpg',
     imgSrc: 'JobelVecino.jpg',
     bio: 'JobelBio',
     email: 'jobel@cs10.org'
@@ -42,15 +42,15 @@ var jobelV = {
 
 var angelaW = {
     name: 'TA Angela Wong',
-    imgSrc: '../Sp17/las/AngelaWong.jpg',
-    img: 'AngelaWong.jpg',
+    img: 'Su17/AngelaWong.jpg',
+    imgSrc: '../Su17/AngelaWong.jpg',
 };
 
 // Readers
 
 var bhumikaG = {
     name: 'LA Bhumika Goel',
-    imgSrc: '../Sp17/las/BhumikaGoel.jpg',
+    imgSrc: '../Su17/BhumikaGoel.jpg',
     img: 'BhumikaGoel.jpg',
 };
 
