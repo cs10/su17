@@ -1,3 +1,8 @@
+<!--
+  Looking for LAB LINK shortcuts?
+  Look in _data/labs.yml
+-->
+{% assign lab = site.data.labs %}
 <table id="summer-calendar">
   <tr>
     <th>week</th>
@@ -12,26 +17,26 @@
     <td rowspan="4">1</td>
     <td>Mon 6/19</td>
     <td>1. Abstraction</td>
-    <td>Intro to Snap</td>
+    <td><a href="{{lab.intro-to-snap}}">Intro to Snap</a></td>
     <td>Welcome to CS10</td>
     <td rowspan="4" class="cal-due-date">HW0 due 6/23</td>
   </tr>
   <tr>
     <td>Tue 6/20</td>
     <td>2. Functions & Procedures</td>
-    <td>Build Your Own Blocks</td>
+    <td><a href="{{lab.byob}}">Build Your Own Blocks</a></td>
     <td></td>
   </tr>
   <tr>
     <td>Wed 6/21</td>
     <td>3. Programming Paradigms</td>
-    <td>Conditionals & Reporters</td>
+    <td><a href="{{lab.conds-and-reporters}}">Conditionals & Reporters</a></td>
     <td>Functions vs. Procedures; Boolean Logic</td>
   </tr>
   <tr>
     <td>Thu 6/22</td>
     <td>4. Numbers and Representation</td>
-    <td>Functions</td>
+    <td><a href="{{lab.abstraction}}">Abstraction</a></td>
     <td></td>
   </tr>
   <!-- week 2 -->
@@ -39,26 +44,26 @@
     <td rowspan="4">2</td>
     <td>Mon 6/26</td>
     <td>5. Lists & HOFs</td>
-    <td>Finch Lab</td>
+    <td><a href="{{lab.finch}}">Finch Lab</a></td>
     <td>Binary; Anatomy of Computer</td>
     <td rowspan="4" class="cal-due-date">HW1 due 6/30</td>
   </tr>
   <tr>
     <td>Tue 6/27</td>
     <td>6. Scoping & Mutability</td>
-    <td>Lists</td>
+    <td><a href="{{lab.lists}}">Lists</a></td>
     <td></td>
   </tr>
   <tr>
     <td>Wed 6/28</td>
     <td>7. Algorithms</td>
-    <td>Tic Tac Toe & Boards</td>
+    <td><a href="{{lab.tic-tac-toe}}">Tic Tac Toe & Boards</a></td>
     <td>Lists & Mutability</td>
   </tr>
   <tr>
     <td>Thu 6/29</td>
     <td>8. Complexity</td>
-    <td>Algorithms</td>
+    <td><a href="{{algorithms}}">Algorithms</a></td>
     <td></td>
   </tr>
   <!-- week 3 -->
@@ -66,7 +71,7 @@
     <td rowspan="4">3</td>
     <td>Mon 7/3</td>
     <td>9. Functions as Data</td>
-    <td>Algorithmic Complexity</td>
+    <td><a href="{{lab.complexity}}">Algorithmic Complexity</a></td>
     <td>List Algorithms & Complexity</td>
     <td rowspan="4" class="cal-due-date">HW2 due 7/7</td>
   </tr>
@@ -77,7 +82,7 @@
   <tr>
     <td>Wed 7/5</td>
     <td>10. Privacy</td>
-    <td>Functions as Data</td>
+    <td><a href="{{lab.hofs-funcs-as-data}}">Functions as Data</a></td>
     <td>HOFs</td>
   </tr>
   <tr>
@@ -91,20 +96,20 @@
     <td rowspan="4">4</td>
     <td>Mon 7/10</td>
     <td>12. Recursion 1</td>
-    <td>Testing & HW3</td>
+    <td><a href="{{lab.2048-testing}}">Testing & HW3</a></td>
     <td>More practice with HOFs</td>
     <td rowspan="4" class="cal-due-date">HW3 due 7/14</td>
   </tr>
   <tr>
     <td>Tue 7/11</td>
     <td>13. Recursion 2</td>
-    <td>Fractals</td>
+    <td><a href="{{lab.trees-fractals}}">Fractals</a></td>
     <td></td>
   </tr>
   <tr>
     <td>Wed 7/12</td>
     <td>14. Machine Learning</td>
-    <td>Recursive Reporters</td>
+    <td><a href="{{lab.recursive-reports}}">Recursive Reporters</a></td>
     <td>Recursion</td>
   </tr>
   <tr>
@@ -118,14 +123,14 @@
     <td rowspan="4">5</td>
     <td>Mon 7/17</td>
     <td>16. Concurrency</td>
-    <td>Recursive Reporters 2</td>
+    <td><a href="{{lab.recursive-reports-2}}">Recursive Reporters 2</a></td>
     <td>Recursive Reporters</td>
     <td rowspan="4" class="cal-due-date">Midterm Project due 7/21</td>
   </tr>
   <tr>
     <td>Tue 7/18</td>
     <td>17. Social Implications</td>
-    <td>Concurrency</td>
+    <td><a href="{{lab.concurrency}}">Concurrency</a></td>
     <td></td>
   </tr>
   <tr>
@@ -145,20 +150,20 @@
     <td rowspan="4">6</td>
     <td>Mon 7/24</td>
     <td>19. Python 1</td>
-    <td>Recursion with HOFs</td>
+    <td><a href="{{lab.hofs-recursion}}">Recursion with HOFs</a></td>
     <td>Post-Midterm Debrief; Social Implications</td>
     <td rowspan="4" class="cal-due-date">Explore Post due 7/26,<br>Comments due 7/28,<br>Final Project Proposals due 7/31</td>
   </tr>
   <tr>
     <td>Tue 7/25</td>
     <td>20. Python 2</td>
-    <td>Python 1</td>
+    <td><a href="{{lab.python-1}}">Python 1</a></td>
     <td></td>
   </tr>
   <tr>
     <td>Wed 7/26</td>
     <td>21. UI & Design</td>
-    <td>Python Data Structures</td>
+    <td><a href="{{lab.python-2}}">Python Data Structures</a></td>
     <td>Python</td>
   </tr>
   <tr>
@@ -172,14 +177,14 @@
     <td rowspan="4">7</td>
     <td>Mon 7/31</td>
     <td>23. Internet & Security</td>
-    <td>Text Processing in Python</td>
+    <td><a href="{{lab.python-3}}">Text Processing in Python</a></td>
     <td>Python Data Structures</td>
     <td rowspan="1" class="cal-due-date">Final Project Proposals due 7/31</td>
   </tr>
   <tr>
     <td>Tue 8/1</td>
     <td>Alumni Panel</td>
-    <td>Internet</td>
+    <td><a href="{{lab.internet}}">Internet</a></td>
     <td></td>
     <td rowspan="7" class="cal-due-date">Final Project due 8/10</td>
   </tr>
@@ -211,7 +216,7 @@
   </tr>
   <tr>
     <td>Wed 8/9</td>
-    <td class="cal-exam">Paper Final Exam  6-9pm</td>
+    <td class="cal-exam">Paper Final Exam 6-9pm</td>
     <td></td>
     <td></td>
   </tr>
