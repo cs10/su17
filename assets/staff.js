@@ -36,6 +36,7 @@ var jobelV = {
     name: 'TA Jobel Vecino',
     img: 'Su17/JobelVecino.jpg',
     imgSrc: 'JobelVecino.jpg',
+    web: 'https://www.linkedin.com/in/jobel-kyle-vecino-b2841879/',
     bio: 'JobelBio',
     email: 'jobel@cs10.org'
 };
