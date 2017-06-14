@@ -53,6 +53,7 @@ var bhumikaG = {
     name: 'LA Bhumika Goel',
     imgSrc: '../Su17/BhumikaGoel.jpg',
     img: 'BhumikaGoel.jpg',
+    bio: 'BhumikaBio'
 };
 
 /*****************************************************************************/
