@@ -24,4 +24,4 @@ In Taiwan a monkey once slapped my leg so hard it gave me a bruise.
 
 ## WHAT COMMITMENTS WILL BE CONSUMING YOUR CYCLES THIS SEMESTER?
 
-Classes (ling 120, ling 113, CS189, EE16A), Research, Teaching, and Dance
+I am an intern this summer at Amazon on their Alexa Shopping team.
