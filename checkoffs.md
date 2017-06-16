@@ -55,8 +55,8 @@ Monday and Tuesdayâ€™s lab check offs are due Thursday; Wednesday and Thursdayâ€
 * [Lab 16](#lab16) (Week 6)
 * [Lab 17](#lab17)
 * [Lab 18](#lab18)
-* [Lab 18](#lab19) (Week 7)
-* [Lab 18](#lab20)
+* [Lab 19](#lab19) (Week 7)
+* [Lab 20](#lab20)
 </div>
 
 ---
