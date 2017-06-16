@@ -6,10 +6,6 @@ h1, h2, .vagrounded-light, .logo {
   font-family: 'VAG Rounded Light', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.logo {
-  display: inline-block;
-}
-
 h2 { /* Used for Staff Headings */
     font-size: 1.5em;
     color: #0F4D92;
