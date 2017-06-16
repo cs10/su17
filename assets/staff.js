@@ -56,13 +56,20 @@ var bhumikaG = {
     bio: 'BhumikaBio'
 };
 
+var julieH = {
+    name: 'LA Julie Han',
+    imgSrc: '../small/NPY.jpg',
+    img: 'NPY.jpg.jpg',
+    bio: 'JulieBio'
+};
+
 /*****************************************************************************/
 /** LIST DEFINITIONS **/
 /*****************************************************************************/
 
 var inst = [ stevenT, yifatA ];
 var tas = [laraM, jobelV, angelaW];
-var readers = [bhumikaG];
+var readers = [bhumikaG, JulieH];
 var las = [];
 
 // If you need to add a new SECTION add it to this object.
