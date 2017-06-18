@@ -80,6 +80,9 @@ tr.cal:nth-child(odd), .light {
 /*****************************************************************************/
 /* All Cells */
 
+.table-responsive {
+  border: none;
+}
 table#summer-calendar {
   font-family: sans-serif;
   border-collapse: collapse;
