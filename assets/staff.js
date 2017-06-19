@@ -69,7 +69,7 @@ var julieH = {
 
 var inst = [ stevenT, yifatA ];
 var tas = [laraM, jobelV, angelaW];
-var readers = [bhumikaG, JulieH];
+var readers = [bhumikaG, julieH];
 var las = [];
 
 // If you need to add a new SECTION add it to this object.
