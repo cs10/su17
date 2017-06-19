@@ -45,6 +45,7 @@ var angelaW = {
     name: 'TA Angela Wong',
     img: 'Su17/AngelaWong.jpg',
     imgSrc: '../Su17/AngelaWong.jpg',
+    email: 'angela@cs10.org',
 };
 
 // Readers
